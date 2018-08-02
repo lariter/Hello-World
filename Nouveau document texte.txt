@@ -1,0 +1,19 @@
+https://www.mathworks.com/help/nnet/ug/learning-vector-quantization-lvq-neural-networks-1.html
+http://matlab.izmiran.ru/help/toolbox/nnet/selfor18.html
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2759696/
+http://ccy.dd.ncu.edu.tw/~chen/course/Neural/ch4/index.htm
+https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1`
+http://cis.poly.edu/~mleung/CS6673/s09/LVQ.pdf
+
+lr = lr0 * drop^floor(epoch / epochs_drop) 
+Calculate with step decay ( see website upstair)
+drop between ( 0 to 1)
+
+
+To do list
+---------------------
+change const_nbHiddenNumberOnLayer for nbNeuronsByClass
+
+Initialize weight randomly
+
+Adapt code to implement lvq and neural network
